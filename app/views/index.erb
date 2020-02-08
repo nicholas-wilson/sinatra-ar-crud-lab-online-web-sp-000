@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Articles</title>
+  </head>
+  <body>
+    <ol>
+    <% @articles.each do |article|%>
+      <li><%=article.title%></li>
+    <%end%>
+    </ol>
+  </body>
+</html>
